@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" class="skrollr skrollr-desktop">
+
+<head>
+  <title>Not a Design Company - shop-checkout</title>
+  <meta name="description" content="Not a Design Company: la nuova realtà tech di Brescia che punta a creare siti web premium, offrendo soluzioni innovative e ambiziose per soddisfare le esigenze digitali più sofisticate.">
+  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting">
+  <meta name="author" content="Not a Design Company">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="/assets/favicon/favicon_black.ico" type="image/x-icon" media="(prefers-color-scheme: light)" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon_white.ico" type="image/x-icon" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-light border-bottom">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand"><img src="/assets/images/logo-dark.png" alt="Logo"></a>
+
+            <!-- secondary -->
+            <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+                <li class="nav-item">
+                    <a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart">
+            <i class="bi bi-cart2"></i>
+          </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#userNav" aria-expanded="false">
+            <i class="bi bi-person"></i>
+          </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover d-none d-lg-block">
+                    <a class="nav-link nav-icon" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person"></i>
+          </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item active" href="/websites/account/account.html">Dashboard</a></li>
+                        <li><a class="dropdown-item " href="/websites/account-settings/account-settings.html">Settings</a></li>
+                        <li><a class="dropdown-item " href="/websites/account-orders/account-orders.html">Orders</a></li>
+                        <li><a class="dropdown-item " href="/websites/account-billing/account-billing.html">Billing</a></li>
+                        <li><a class="dropdown-item text-red" href="#">Log Out</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-list"></span>
+          </a>
+                </li>
+            </ul>
+
+            <!-- primary -->
+            <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown dropdown-hover">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Portfolio
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-4">
+                      <li class="dropend dropend-hover">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropend-1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Landings</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropend-1">
+                          <li><a class="dropdown-item" href="/websites/startup/startup.html">Startup</a></li>
+                          <li><a class="dropdown-item" href="/websites/saas/saas.html">Saas</a></li>
+                          <li><a class="dropdown-item" href="/websites/coworking/coworking.html">Coworking</a></li>
+                          <li><a class="dropdown-item" href="/websites/job-board/job-board.html">Job Board</a></li>
+                          <li><a class="dropdown-item" href="/websites/agency/agency.html">Agency</a></li>
+                          <li><a class="dropdown-item" href="/websites/blog/blog.html">Blog</a></li>
+                          <li><a class="dropdown-item" href="/websites/product/product.html">Product</a></li>
+                          <li><a class="dropdown-item" href="/websites/app/app.html">App</a></li>
+                          <li><a class="dropdown-item" href="/websites/shop/shop.html">Shop</a></li>
+                          <li><a class="dropdown-item" href="/websites/event/event.html">Event</a></li>
+                          <li><a class="dropdown-item" href="/websites/course/course.html">Course</a></li>
+                          <li><a class="dropdown-item" href="/websites/service/service.html">Service</a></li>
+                          <li><a class="dropdown-item" href="/websites/software/software.html">Software</a></li>
+                          <li><a class="dropdown-item" href="/websites/documentation/documentation.html">Documentation</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropend dropend-hover">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropend-1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropend-1">
+                          <li><a class="dropdown-item" href="/websites/about/about.html">About</a></li>
+                          <li><a class="dropdown-item" href="/websites/pricing/pricing.html">Pricing</a></li>
+                          <li><a class="dropdown-item" href="/websites/faq/faq.html">FAQ</a></li>
+                          <li><a class="dropdown-item" href="/websites/terms/terms.html">Terms</a></li>
+                          <li><a class="dropdown-item" href="/websites/services/services.html">Services</a></li>
+                          <li><a class="dropdown-item" href="/websites/job-listing/job-listing.html">Job Listing</a></li>
+                          <li><a class="dropdown-item" href="/websites/job-post/job-post.html">Job Post</a></li>
+                          <li><a class="dropdown-item" href="/websites/portfolio-grid/portfolio-grid.html">Portfolio Grid</a></li>
+                          <li><a class="dropdown-item" href="/websites/portfolio-list/portfolio-list.html">Portfolio List</a></li>
+                          <li><a class="dropdown-item" href="/websites/case-study/case-study.html">Case Study</a></li>
+                          <li><a class="dropdown-item" href="/websites/blog-listing/blog-listing.html">Blog Listing</a></li>
+                          <li><a class="dropdown-item" href="/websites/blog-post/blog-post.html">Blog Post</a></li>
+                          <li><a class="dropdown-item" href="/websites/contact/contact.html">Contact Classic</a></li>
+                          <li><a class="dropdown-item" href="/websites/contact-location/contact-location.html">Contact Location</a></li>
+                          <li><a class="dropdown-item" href="/websites/404/404.html">404</a></li>
+                          <li><a class="dropdown-item" href="./coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropend dropend-hover">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropend-1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Account</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropend-1">
+                          <li><a class="dropdown-item" href="/websites/account/account.html">Dashboard</a></li>
+                          <li><a class="dropdown-item" href="/websites/account-settings/account-settings.html">Settings</a></li>
+                          <li><a class="dropdown-item" href="/websites/account-orders/account-orders.html">Orders</a></li>
+                          <li><a class="dropdown-item" href="/websites/account-billing/account-billing.html">Billing</a></li>
+                          <li><a class="dropdown-item" href="/websites/sign-in/sign-in.html">Sign in</a></li>
+                          <li><a class="dropdown-item" href="/websites/register/register.html">Register</a></li>
+                          <li><a class="dropdown-item" href="/websites/forgot-password/forgot-password.html">Forgot Password</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropend dropend-hover">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropend-1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">E-commerce</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropend-1">
+                          <li><a class="dropdown-item" href="/websites/shop-product/shop-product.html">Product</a></li>
+                          <li class="dropend dropend-hover">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropend-1" data-bs-toggle="dropdown"
+                              aria-expanded="false" data-bs-auto-close="outside">Listing</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropend-1">
+                              <li><a class="dropdown-item" href="/websites/shop-listing/shop-listing.html">Full width</a></li>
+                              <li><a class="dropdown-item" href="/websites/shop-listing-sidebar/shop-listing-sidebar.html">Sidebar</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="/websites/shop-cart/shop-cart.html">Cart</a></li>
+                          <li><a class="dropdown-item" href="/websites/shop-checkout/shop-checkout.html">Checkout</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="/about_us.html" role="button">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/contact_us.html" role="button">Contact Us</a></li>
+                  <li class="nav-item dropdown dropdown-hover">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Social Networks
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-4">
+                      <li><a class="dropdown-item" href="https://www.instagram.com/not.a.design.company/">Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.tiktok.com/@not.a.design.company?lang=en">TikTok</a></li>
+                      <li><a class="dropdown-item" href="https://www.youtube.com/channel/UChms-UJAOmlBWnqncva9o2g">Youtube</a></li>
+                      <li><a class="dropdown-item" href="https://www.linkedin.com/company/98444881/">LinkedIn</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+
+
+            <!-- mobile user menu -->
+            <div class="collapse account-collapse" id="userNav" data-bs-parent="#mainNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/websites/account/account.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/websites/account-settings/account-settings.html">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/websites/account-orders/account-orders.html">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/websites/account-blling/account-blling.html">Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-red" href="">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasCartLabel">Shopping Cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li>
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-1.jpg"
+                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0" max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Remove</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-4">
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-2.jpg"
+                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0" max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Remove</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-4">
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-3.jpg"
+                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0" max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Remove</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer">
+            <div class="d-grid gap-1">
+                <a href="" class="btn btn-outline-light rounded-pill">View Cart</a>
+                <a href="" class="btn btn-primary rounded-pill">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas-wrap">
+        <section class="py-15 py-xl-20">
+            <div class="container mt-5">
+                <div class="row justify-content-between">
+                    <div class="col-xl-7 mb-5 mb-xl-0">
+                        <section class="mt-4">
+                            <h2 class="fw-bold">Address</h2>
+                            <form class="row g-2">
+                                <div class="col-12">
+                                    <label for="inputCountry" class="form-label">Country</label>
+                                    <input type="email" class="form-control" id="inputCountry" placeholder="Country" value="Germany">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Address</label>
+                                    <input type="password" class="form-control" id="inputAddress" placeholder="Address">
+                                </div>
+                                <div class="col-xl-8">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="inputCity" placeholder="City" value="Munich">
+                                </div>
+                                <div class="col-xl-4">
+                                    <label for="inputZip" class="form-label">Zip Code</label>
+                                    <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputStateProvince" class="form-label">State / Province</label>
+                                    <input type="text" class="form-control" id="inputStateProvince" placeholder="State / Province">
+                                </div>
+                                <div class="col-xl-4">
+                                    <label for="inputCountryCode" class="form-label">Country Code</label>
+                                    <input type="text" class="form-control" id="inputCountryCode" placeholder="Country Code">
+                                </div>
+                                <div class="col-xl-8">
+                                    <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+                                </div>
+                                <div class="col-12">
+                                    <ul class="list-unstyled mt-2">
+                                        <li class="mb-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                          My billing and delivery information are the same
+                        </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                                <label class="form-check-label" for="gridCheck2">
+                          Please send me emails with exclusive offers and updates
+                        </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </section>
+
+                        <section class="mt-10">
+                            <h2 class="fw-bold">Billing</h2>
+                            <ul class="nav nav-pills" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Credit Card</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Paypal</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-4" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <form class="row g-2">
+                                        <div class="col-12">
+                                            <label for="inputCardNumber" class="form-label">Card Number</label>
+                                            <input type="text" class="form-control" id="inputCardNumber" placeholder="Card Number">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="inputCardName" class="form-label">Name on Card</label>
+                                            <input type="text" class="form-control" id="inputCardName" placeholder="Name on card">
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="inputCardMonth" class="form-label">Month</label>
+                                            <input type="text" class="form-control" id="inputCardMonth" placeholder="Month">
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="inputCardCVV" class="form-label">CVV</label>
+                                            <input type="text" class="form-control" id="inputCardCVV" placeholder="CVV">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-5 ps-xl-10">
+                        <div class="card bg-light sticky-top">
+                            <div class="accordion accordion-classic" id="accordion-1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1-1">
+                                        <button class="accordion-button collapsed fw-bold fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                      $249.99
+                    </button>
+                                    </h2>
+                                    <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ol class="list-group list-group-minimal">
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                                                    Subtotal
+                                                    <span class="text-black">$35.90</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                                                    Delivery
+                                                    <span class="text-black">Free</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                                                    Tax
+                                                    <span class="text-black">$10.00</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-secondary">
+                                                    Insurance
+                                                    <span class="text-black">$5.00</span>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1-2">
+                                        <button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                      Delivery
+                    </button>
+                                    </h2>
+                                    <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                          Standard ( within 2 weeks )
+                        </label>
+                                            </div>
+                                            <div class="form-check mt-1">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                          Express ( within 2 working days)
+                        </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1-3">
+                                        <button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
+                      Cart
+                    </button>
+                                    </h2>
+                                    <div id="collapse-1-3" class="accordion-collapse collapse" aria-labelledby="heading-1-3" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ol class="list-group list-group-minimal">
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-black">
+                                                    <span>
+                            Analog Magazine Rack x2
+                            <span class="text-muted d-block">Blue</span>
+                                                    </span>
+                                                    $35.90
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-start text-black">
+                                                    <span>
+                            Analog Magazine Rack x2
+                            <span class="text-muted d-block">Blue</span>
+                                                    </span>
+                                                    $35.90
+                                                </li>
+                                            </ol>
+                                            <a href="" class="action underline mt-1">Edit Cart <i class="bi bi-arrow-right-short"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="d-grid text-center">
+                                    <a href="" class="btn btn-lg btn-primary rounded-pill">Proceed to Checkout</a>
+                                    <span class="d-flex justify-content-center align-items-center text-muted mt-2"><i
+                      class="bi bi-shield-lock fs-6 me-1"></i>
+                    Secure Transaction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer class="py-15 py-xl-20 bg-black inverted">
+            <div class="container">
+                <div class="row g-4 g-lg-5 mb-10">
+                    <div class="col-md-3 text-center text-md-start">
+                        <a href="/index.html" class="navbar-brand"><img src="/assets/images/logo-light.png" alt="Logo"></a>
+                    </div>
+                    <div class="col-md-4 col-lg-5 text-center text-md-start">
+                        <ul class="list-unstyled">
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">documentation</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">components</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">blocks</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">changelog</a></li>
+                            <li><a href="" class="text-reset text-primary-hover">roadmap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="grouped-inputs border p-1 rounded-pill">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control rounded-pill px-3" aria-label="Text input" placeholder="Your email">
+                                </div>
+                                <div class="col-auto">
+                                    <a href="" class="btn btn-primary btn-icon rounded-circle"><i class="bi bi-arrow-return-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center g-1 g-lg-6 text-muted">
+                    <div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start">
+                        <ul class="list-inline small">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/not.a.design.company/" class="text-reset text-primary-hover">Instagram</a></li>
+                            <li class="list-inline-item ms-1"><a href="https://www.tiktok.com/@not.a.design.company?lang=en" class="text-reset text-primary-hover">TikTok</a></li>
+                            <li class="list-inline-item ms-1"><a href="https://www.youtube.com/channel/UChms-UJAOmlBWnqncva9o2g" class="text-reset text-primary-hover">Youtube</a></li>
+                            <li class="list-inline-item ms-1"><a href="https://www.linkedin.com/company/98444881/" class="text-reset text-primary-hover">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+                        <span class="small">Proudly based in Val Trompia, Brescia</span>
+                    </div>
+                    <div class="col-lg-3 order-lg-1 text-center text-md-start">
+                        <p class="small">©2023 NOT A DESIGN COMPANY</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <script src="./assets/js/index.bundle.js"></script>
+</body>
+
+</html>
