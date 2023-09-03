@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" class="skrollr skrollr-desktop">
+
+<head>
+  <title>Not a Design Company - agency</title>
+  <meta name="description" content="Not a Design Company: la nuova realtà tech di Brescia che punta a creare siti web premium, offrendo soluzioni innovative e ambiziose per soddisfare le esigenze digitali più sofisticate.">
+  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting">
+  <meta name="author" content="Not a Design Company">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="/assets/favicon/favicon_black.ico" type="image/x-icon" media="(prefers-color-scheme: light)" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon_white.ico" type="image/x-icon" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand"><img src="/assets/images/logo-light.png" alt="Logo"></a>
+            <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+                <li class="nav-item"><a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button" aria-controls="offcanvasNav"><span class="bi bi-list"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav nav-minimal" id="toc-nav">
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href="#menu-1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-1">Portfolio</a>
+                    <div class="collapse" id="menu-1" data-bs-parent="#toc-nav">
+                        <ul class="nav nav-minimal nav-minimal-columns">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#menu-sec1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-sec1">Landings</a>
+                                <div class="collapse" id="menu-sec1">
+                                    <ul class="nav nav-minimal nav-minimal-columns">
+                                        <li class="nav-item"><a class="nav-link" href="/websites/startup/startup.html">Startup</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/saas/saas.html">Saas</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/coworking/coworking.html">Coworking</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/job-board/job-board.html">Job Board</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/agency/agency.html">Agency</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/blog/blog.html">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/product/product.html">Product</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/app/app.html">App</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/shop/shop.html">Shop</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/event/event.html">Event</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/course/course.html">Course</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/service/service.html">Service</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/software/software.html">Software</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/documentation/documentation.html">Documentation</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#menu-sec2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-sec2">Pages</a>
+                                <div class="collapse" id="menu-sec2">
+                                    <ul class="nav nav-minimal nav-minimal-columns">
+                                        <li class="nav-item"><a class="nav-link" href="/websites/about/about.html">About</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/pricing/pricing.html">Pricing</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/faq/faq.html">FAQ</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/terms/terms.html">Terms</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/services/services.html">Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/job-listing/job-listing.html">Job Listing</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/job-post/job-post.html">Job Post</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/portfolio-grid/portfolio-grid.html">Portfolio Grid</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/portfolio-list/portfolio-list.html">Portfolio List</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/case-study/case-study.html">Case Study</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/blog-listing/blog-listing.html">Blog Listing</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/blog-post/blog-post.html">Blog Post</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/contact/contact.html">Contact Classic</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/contact-location/contact-location.html">Contact Location</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/404/404.html">404</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/coming-soon.html">Coming Soon</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#menu-sec3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-sec3">Account</a>
+                                <div class="collapse" id="menu-sec3">
+                                    <ul class="nav nav-minimal nav-minimal-columns">
+                                        <li class="nav-item"><a class="nav-link" href="/websites/account/account.html">Dashboard</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/account-settings/account-settings.html">Settings</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/account-orders/account-orders.html">Orders</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/account-billing/account-billing.html">Billing</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/sign-in/sign-in.html">Sign in</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/register/register.html">Register</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/forgot-password/forgot-password.html">Forgot Password</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#menu-sec4" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-sec4">E-commerce</a>
+                                <div class="collapse" id="menu-sec4">
+                                    <ul class="nav nav-minimal nav-minimal-columns">
+                                        <li class="nav-item"><a class="nav-link" href="/websites/shop-product/shop-product.html">Product</a></li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fs-6" href="#menu-sec-sec1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-sec-sec1">Listing</a>
+                                            <div class="collapse" id="menu-sec-sec1">
+                                                <ul class="nav nav-minimal nav-minimal-columns">
+                                                    <li class="nav-item"><a class="nav-link" href="/websites/shop-listing/shop-listing.html">Full width</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="/websites/shop-listing-sidebar/shop-listing-sidebar.html">Sidebar</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/shop-cart/shop-cart.html">Cart</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/websites/shop-checkout/shop-checkout.html">Checkout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="nav-item"><a class="nav-link fs-4" href="/about_us.html" role="button">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link fs-4" href="/contact_us.html" role="button">Contact Us</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#menu-2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="menu-2">Social Networks</a>
+                        <div class="collapse" id="menu-2" data-bs-parent="#toc-nav">
+                            <ul class="nav nav-minimal nav-minimal-columns">
+                                <li class="nav-item fs-5"><a class="nav-link" href="https://www.instagram.com/not.a.design.company/">Instagram</a></li>
+                                <li class="nav-item fs-5"><a class="nav-link" href="https://www.tiktok.com/@not.a.design.company?lang=en">TikTok</a></li>
+                                <li class="nav-item fs-5"><a class="nav-link" href="https://www.youtube.com/channel/UChms-UJAOmlBWnqncva9o2g">Youtube</a></li>
+                                <li class="nav-item fs-5"><a class="nav-link" href="https://www.linkedin.com/company/98444881/">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas-wrap">
+        <!-- header -->
+        <section class="inverted overflow-hidden position-relative" data-top-top="background-color: rgba(44,73,244,1)" data-top-center="background-color: rgba(235,60,39,1)" data-top-bottom="background-color: rgba(44,73,244,1)">
+            <div class="container d-flex flex-column foreground min-vh-100">
+                <div class="row align-items-center justify-content-center my-auto">
+                    <div class="col-lg-10 text-center">
+                        <span class="eyebrow text-secondary mb-2">UX and Full stack development studio</span>
+                        <h1 class="display-1 fw-bold">Where Design Meet Functionality.</h1>
+                        <a href="" class="btn btn-white rounded-pill">Start a project</a>
+                    </div>
+                </div>
+            </div>
+            <figure class="background">
+                <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle data-aos="fade-up" data-aos-delay="150" cx="125%" cy="-25%" r="35%" fill="white" fill-opacity=".05"
+            data-top-top="@cy: -25%; @cx: 115%;" data-top-bottom="@cy: 0%; @cx: 105%;" />
+          <circle data-aos="fade-up" data-aos-delay="300" cx="90%" cy="125%" r="75%" fill="black" fill-opacity=".1"
+            data-center-top="@r: 75%;" data-top-bottom="@r: 85%;" />
+          <circle data-aos="fade-up" data-aos-delay="450" cx="5%" cy="125%" r="50%" stroke="black" stroke-opacity=".2"
+            data-center-top="@r: 50%;" data-center-bottom="@r: 70%;" />
+        </svg>
+            </figure>
+            <span class="scroll-down"></span>
+        </section>
+
+
+        <!-- features -->
+        <section class="py-15 py-xl-20">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8">
+                        <h2 class="fw-bold">A digital studio creating experiences that work.</h2>
+                    </div>
+                </div>
+                <div class="row g-4 g-md-5">
+                    <div class="col-6 col-lg-3">
+                        <h5 class="fw-bold">Brand</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="py-1">Brand Strategy</li>
+                            <li class="py-1">Visual Identity</li>
+                            <li class="py-1">Rebranding</li>
+                            <li class="py-1">Research & Analytics</li>
+                        </ul>
+                        <a href="" class="underline eyebrow">Order service</a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h5 class="fw-bold">Content</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="py-1">Copywriting</li>
+                            <li class="py-1">Motion Graphics</li>
+                            <li class="py-1">Illustrations</li>
+                            <li class="py-1">Photo & Video</li>
+                        </ul>
+                        <a href="" class="underline eyebrow">Order service</a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h5 class="fw-bold">Solutions</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="py-1">Web Design</li>
+                            <li class="py-1">Web Development</li>
+                            <li class="py-1">Web Application</li>
+                            <li class="py-1">Ecommerce</li>
+                        </ul>
+                        <a href="" class="underline eyebrow">Order service</a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h5 class="fw-bold">Connections</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="py-1">Digital marketing strategies</li>
+                            <li class="py-1">SEO/SEA</li>
+                            <li class="py-1">Social Media</li>
+                            <li class="py-1">E-mail marketing</li>
+                        </ul>
+                        <a href="" class="underline eyebrow">Order service</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- projects -->
+        <section class="py-15 py-xl-20 bg-light">
+            <div class="container">
+                <div class="row g-2 justify-content-between mb-8">
+                    <div class="col-lg-7">
+                        <h2 class="fs-1 fw-bold">We bring your idea and work for it to became reality.</h2>
+                    </div>
+                    <div class="col-md-8 col-lg-4">
+                        <blockquote class="blockquote mt-1">
+                            <p class="fs-6">Build better websites. A new template inspired by the world’s best design practices.
+                            </p>
+                            <footer class="blockquote-footer mt-3">
+                                <small class="d-block lh-1 text-black">Michael Campbell</small>
+                                <small>Google CEO</small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="row g-2 mb-8" data-masonry>
+                    <div class="col-md-6" data-aos="fade-up">
+                        <a href="" class="card equal-md-1-1 card-arrow card-hover-gradient card-hover-arrow inverted">
+                            <figure class="background" style="background-image: url('./assets/images/small-1.jpg')">
+                            </figure>
+                            <div class="card-wrap">
+                                <div class="card-footer mt-auto text-shadow">
+                                    <time datetime="2020-12-18 20:00" class="eyebrow text-secondary">18 December</time>
+                                    <h5 class="card-title mt-1">Ethical Considerations In UX Research: The Need For Training And Review
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up">
+                        <a href="" class="card equal-md-3-4 card-arrow card-hover-gradient card-hover-arrow inverted">
+                            <figure class="background" style="background-image: url('./assets/images/small-2.jpg')">
+                            </figure>
+                            <div class="card-wrap">
+                                <div class="card-footer mt-auto text-shadow">
+                                    <time datetime="2020-12-18 20:00" class="eyebrow text-secondary">18 December</time>
+                                    <h5 class="card-title mt-1">Ethical Considerations In UX Research: The Need For Training And Review
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up">
+                        <a href="" class="card equal-md-3-4 card-arrow card-hover-gradient card-hover-arrow inverted">
+                            <figure class="background" style="background-image: url('./assets/images/small-3.jpg')">
+                            </figure>
+                            <div class="card-wrap">
+                                <div class="card-footer mt-auto text-shadow">
+                                    <time datetime="2020-12-18 20:00" class="eyebrow text-secondary">18 December</time>
+                                    <h5 class="card-title mt-1">Ethical Considerations In UX Research: The Need For Training And Review
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up">
+                        <a href="" class="card equal-md-1-1 card-arrow card-hover-gradient card-hover-arrow inverted">
+                            <figure class="background" style="background-image: url('./assets/images/small-4.jpg')">
+                            </figure>
+                            <div class="card-wrap">
+                                <div class="card-footer mt-auto text-shadow">
+                                    <time datetime="2020-12-18 20:00" class="eyebrow text-secondary">18 December</time>
+                                    <h5 class="card-title mt-1">Ethical Considerations In UX Research: The Need For Training And Review
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="" class="btn btn-outline-primary btn-with-icon rounded-pill">
+              <i class="bi bi-arrow-repeat"></i> Load More
+            </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- team -->
+        <section class="py-15 py-xl-20 bg-black inverted">
+            <div class="container">
+                <div class="row align-items-end mb-5">
+                    <div class="col-lg-6">
+                        <h2 class="fw-bold">Meet the people behind our project.</h2>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <a href="" class="action underline text-white">View all 28 members<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row g-2 g-lg-5">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                        <a href="" class="card card-hover-gradient inverted equal-1-1 equal-lg-3-4">
+                            <div class="card-wrap">
+                                <div class="card-footer text-shadow mt-auto">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <span class="text-muted">Senior Product Designer</span>
+                                </div>
+                            </div>
+                            <figure class="background" style="background-image: url('./assets/images/users/user-1.jpg')">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                        <a href="" class="card card-hover-gradient inverted equal-1-1 equal-lg-3-4">
+                            <div class="card-wrap">
+                                <div class="card-footer text-shadow mt-auto">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <span class="text-muted">Senior Product Designer</span>
+                                </div>
+                            </div>
+                            <figure class="background" style="background-image: url('./assets/images/users/user-2.jpg')">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <a href="" class="card card-hover-gradient inverted equal-1-1 equal-lg-3-4">
+                            <div class="card-wrap">
+                                <div class="card-footer text-shadow mt-auto">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <span class="text-muted">Senior Product Designer</span>
+                                </div>
+                            </div>
+                            <figure class="background" style="background-image: url('./assets/images/users/user-3.jpg')">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-block d-lg-none col-md-6 col-lg-4">
+                        <a href="" class="card card-hover-gradient inverted equal-1-1 equal-lg-3-4">
+                            <div class="card-wrap">
+                                <div class="card-footer text-shadow mt-auto">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <span class="text-muted">Senior Product Designer</span>
+                                </div>
+                            </div>
+                            <figure class="background" style="background-image: url('./assets/images/users/user-4.jpg')">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- testimonials -->
+        <section class="py-15 py-xl-20 overflow-hidden">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="carousel carousel-with-nav">
+                            <div data-carousel='{"controls": false, "autoHeight": true ,"gutter": 200, "center": true, "mouseDrag": true }'>
+                                <div>
+                                    <blockquote class="text-center">
+                                        <span class="logo"><img src="./assets/images/logo/logo-1.svg" alt="Logo"></span>
+                                        <h4 class="fs-2 my-3">“Amazing experience I love it a lot. Thanks to the team that dreams come true.”</h4>
+                                        <footer class="blockquote-footer">
+                                            <span><span class="text-black">Michael Doe</span> Creative Director</span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+
+                                <div>
+                                    <blockquote class="text-center">
+                                        <span class="logo"><img src="./assets/images/logo/logo-2.svg" alt="Logo"></span>
+                                        <h4 class="fs-2 my-3">“Amazing experience I love it a lot. Thanks to the team that dreams come true.”</h4>
+                                        <footer class="blockquote-footer">
+                                            <span><span class="text-black">Michael Doe</span> Creative Director</span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- instagram -->
+        <section class="py-0">
+            <div class="container">
+                <div class="row g-0 gallery-1">
+                    <div class="col-lg-3">
+                        <a href="https://www.instagram.com/not.a.design.company/" class="card card-arrow card-hover-arrow equal-lg-1-1 text-white bg-black">
+                            <div class="card-wrap">
+                                <div class="card-header pb-0">
+                                    <i class="bi bi-instagram fs-3"></i>
+                                </div>
+                                <div class="card-footer mt-auto">
+                                    <h5 class="fs-lg">@not.a.design.company</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-1.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-1.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-2.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-2.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-3.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-3.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-4.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-4.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-5.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-5.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <figure class="media media-image equal-1-1" data-bp='{"imgSrc": "./assets/images/insta-6.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-6.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <figure class="media media-image equal-2-1 equal-lg-1-1" data-bp='{"imgSrc": "./assets/images/insta-7.jpg" , "parentGalleryClass": "gallery-1" }'>
+                            <span style="background-image: url('./assets/images/insta-7.jpg')">
+              </span>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact -->
+        <section class="py-15 py-xl-20">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 mb-5">
+                        <h2 class="fw-bold">Let's make something big. <span class="d-block">Together.</span></h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <form action="#" class="row g-3">
+                            <div class="col-md-6">
+                                <label for="yourName" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="yourName" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="yourCompany" class="form-label">Your Company</label>
+                                <input type="text" class="form-control" id="yourCompany" placeholder="Your Company">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="yourMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="yourMessage" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label text-muted small" for="gridCheck">
+                    I accept the <a href="" class="underline">Terms
+                      & Conditions</a> and acknowledge that my information will be used in accordance with Privacy
+                    Policy.
+                  </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="" class="btn btn-block btn-primary rounded-pill">Get in touch</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer class="py-15 py-xl-20 border-top">
+            <div class="container">
+                <div class="row justify-content-between g-5 mb-5 mb-lg-10">
+                    <div class="col-lg-4">
+                        <a href="./index.html" class="navbar-brand"><img src="/assets/images/logo-dark.png" alt="Logo"></a>
+                        <p class="mt-2 text-muted pe-lg-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-3 g-xl-5">
+                            <div class="col-6 col-md-4">
+                                <span class="eyebrow text-muted mb-1 d-flex">Menu</span>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">documentation</a></li>
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">components</a></li>
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">blocks</a></li>
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">changelog</a></li>
+                                    <li><a href="" class="text-reset text-primary-hover">roadmap</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <span class="eyebrow text-muted mb-1 d-flex">Follow us</span>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="https://www.instagram.com/not.a.design.company/" class="text-reset text-primary-hover">Instagram</a></li>
+                                    <li class="mb-1"><a href="https://www.tiktok.com/@not.a.design.company?lang=en" class="text-reset text-primary-hover">TikTok</a></li>
+                                    <li class="mb-1"><a href="https://www.youtube.com/channel/UChms-UJAOmlBWnqncva9o2g" class="text-reset text-primary-hover">Linkedin</a></li>
+                                    <li><a href="https://www.linkedin.com/company/98444881/" class="text-reset text-primary-hover">Youtube</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <span class="eyebrow text-muted mb-1 d-flex">Docs</span>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">Get Started</a></li>
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">Components</a></li>
+                                    <li class="mb-1"><a href="" class="text-reset text-primary-hover">Changelog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-between g-2 g-lg-5">
+                    <div class="col-md-6 col-lg-4 order-md-2 text-md-end">
+                        <span class="small text-muted">Proudly based in Val Trompia, Brescia</span>
+                    </div>
+                    <div class="col-md-6 col-lg-3 order-md-1">
+                        <p class="small text-muted">©2023 NOT A DESIGN COMPANY</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <script src="./assets/js/index.bundle.js"></script>
+</body>
+
+</html>
