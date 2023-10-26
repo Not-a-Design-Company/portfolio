@@ -14,6 +14,30 @@
   <link rel="icon" href="./assets/favicon/favicon_white.ico" type="image/x-icon" media="(prefers-color-scheme: dark)" />
   <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
   <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+
+  <script>
+    // check if the language cookie is set
+    const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+    const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+  
+    // set the language cookie
+    document.cookie = `lang=${lang}`;
+  
+    // set the redirect URL based on the language cookie
+    let redirectUrl = "index.html"; // default to English
+    if (lang === "it") {
+      redirectUrl = "index_it.html";
+    }
+  
+    // redirect to the appropriate page if not already on that page
+    if (window.location.pathname !== `/${redirectUrl}`) {
+      window.location.href = redirectUrl;
+    }
+  </script>
+
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="it" href="index_it.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
 </head>
 
 <body class="headroom headroom--not-bottom headroom--top" data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
@@ -124,7 +148,30 @@
             </ul>
           </li>
         </ul>
-      </div>
+      </div>           
+
+      <button id="language-button" style="background: none; border: none; color: #FFFFFF; cursor: pointer;">IT | EN</button>
+
+      <script>
+        const languageButton = document.getElementById('language-button');
+      
+        languageButton.addEventListener('click', () => {
+          // check if the language cookie is already set
+          const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+          const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+          if (lang === "en") {
+            // set the language cookie to "it"
+            document.cookie = "lang=it";
+            // reload the page in Italian
+            window.location.href = "index_it.html";
+          } else {
+            // set the language cookie to "en"
+            document.cookie = "lang=en";
+            // reload the page in English
+            window.location.href = "index.html";
+          }
+        });
+      </script>
     </div>
   </nav>
 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="skrollr skrollr-desktop">
+<html lang="it" class="skrollr skrollr-desktop">
 
 <head>
   <title>Not a Design Company - Chi Siamo</title>
-  <meta name="description" content="Not a Design Company: the new tech company in Brescia that aims to create premium websites, offering innovative and ambitious solutions to satisfy the most sophisticated digital needs.">
-  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting">
+  <meta name="description" content="Not a Design Company: la nuova tech company bresciana che mira a creare siti web premium, offrendo soluzioni innovative e ambiziose per soddisfare le esigenze digitali più sofisticate.">
+  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting, siti web premium, soluzioni innovative, obiettivi ambiziosi, soluzioni digitali, sviluppo siti web, design professionale, tecnologia all'avanguardia, web design reattivo, esperienza utente, ottimizzazione SEO, marketing digitale, presenza online, siti web personalizzati, soluzioni creative, servizi di sviluppo web, progettazione di siti Web moderni, interfaccia utente interattiva, siti Web SEO-friendly, progettazione Web su misura, soluzioni di e-commerce, negozi online, progettazione grafica, sistemi di gestione dei contenuti, sviluppo di WordPress, manutenzione di siti Web, sicurezza di siti Web, registrazione di domini">
   <meta name="author" content="Not a Design Company">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +14,30 @@
   <link rel="icon" href="./assets/favicon/favicon_white.ico" type="image/x-icon" media="(prefers-color-scheme: dark)" />  
   <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
   <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+
+  <script>
+    // check if the language cookie is set
+    const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+    const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+  
+    // set the language cookie
+    document.cookie = `lang=${lang}`;
+  
+    // set the redirect URL based on the language cookie
+    let redirectUrl = "about_us.html"; // default to English
+    if (lang === "it") {
+      redirectUrl = "about_us_it.html";
+    }
+  
+    // redirect to the appropriate page if not already on that page
+    if (window.location.pathname !== `/${redirectUrl}`) {
+      window.location.href = redirectUrl;
+    }
+  </script>
+
+  <link rel="alternate" hreflang="en" href="about_us.html">
+  <link rel="alternate" hreflang="it" href="about_us_it.html">
+  <link rel="alternate" hreflang="x-default" href="about_us.html">
 </head>
 
 <body>
@@ -126,6 +150,28 @@
               </li>
             </ul>
           </div>
+          <button id="language-button" style="background: none; border: none; color: #FFFFFF; cursor: pointer;">IT | EN</button>
+
+      <script>
+        const languageButton = document.getElementById('language-button');
+      
+        languageButton.addEventListener('click', () => {
+          // check if the language cookie is already set
+          const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+          const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+          if (lang === "en") {
+            // set the language cookie to "it"
+            document.cookie = "lang=it";
+            // reload the page in Italian
+            window.location.href = "about_us_it.html";
+          } else {
+            // set the language cookie to "en"
+            document.cookie = "lang=en";
+            // reload the page in English
+            window.location.href = "about_us.html";
+          }
+        });
+      </script>
         </div>
       </nav>
     
@@ -283,8 +329,8 @@
 
                             <p class="fs-lg text-secondary" data-aos="fade-up">In un panorama digitale in rapida evoluzione, la presenza online è diventata fondamentale per le aziende che mirano a prosperare nell'era digitale. Tuttavia, la proliferazione di sistemi di gestione dei contenuti (CMS) di bassa qualità come Wix e Wordpress ha portato a una tendenza preoccupante: siti web costosi che non soddisfano gli standard di eccellenza. Riconoscendo questa disparità, Not a Design Company è emersa come una dinamica giovane agenzia di sviluppo web con una chiara missione: fornire siti web su misura di alta qualità che combinino l'esperienza tradizionale di programmazione web con l'accessibilità.</p>
                             <p class="fs-lg text-secondary" data-aos="fade-up">Not a Design Company si pone all'avanguardia della rivoluzione del panorama dello sviluppo web. La nostra filosofia centrale si concentra sulla fornitura di siti web che trascendono la mediocrità. Comprendiamo che un sito web è più di una semplice presenza online: è una riflessione dell'identità e dei valori del tuo marchio. Ogni progetto intrapreso da Not a Design Company è improntato ad un impegno per l'eccellenza, utilizzando tecniche di programmazione all'avanguardia e principi di design per creare siti web che risuonino con unicità e sofisticatezza.</p>
-                            <p class="fs-lg text-secondary" data-aos="fade-up">Da Not a Design Company, non costruiamo solo siti web; coltiviamo partnership. Riconosciamo che ogni attività ha esigenze e aspirazioni distinte, e il nostro approccio è personalizzato per affrontarle individualmente. Dal concepimento alla realizzazione, il nostro team cammina a fianco di te, garantendo che ogni idea sia coltivata e ogni preoccupazione sia affrontata. Il nostro impegno si estende oltre il lancio del sito web; forniamo una manutenzione mensile completa per garantire prestazioni ottimali sostenute.</p>
-                            <p class="fs-lg text-secondary" data-aos="fade-up">Nel moderno panorama digitale, un sito web eccellente ha bisogno di più che funzionalità: richiede visibilità. Not a Design Company va oltre, integrando senza soluzione di continuità una strategia di promozione di alto livello basata sull'utilizzo del potere dei social media. Non creiamo solo siti web; creiamo ecosistemi digitali che contribuiscono attivamente alla traiettoria di crescita della tua attività.</p>
+                            <p class="fs-lg text-secondary" data-aos="fade-up">Da Not a Design Company, non costruiamo solo siti web; coltiviamo partnership. Riconosciamo che ogni attività ha esigenze e aspirazioni distinte, e il nostro approccio è personalizzato per affrontarle individualmente. Dal concepimento alla realizzazione, il nostro team cammina a fianco a te, garantendo che ogni idea sia coltivata e ogni preoccupazione sia affrontata. Il nostro impegno si estende oltre il lancio del sito web; forniamo una manutenzione mensile completa per garantire prestazioni ottimali sostenute.</p>
+                            <p class="fs-lg text-secondary" data-aos="fade-up">Nel panorama digitale moderno, un sito Web eccezionale ha bisogno di qualcosa di più della semplice funzionalità: richiede visibilità. Not a Design Company va oltre, integrando senza soluzione di continuità una strategia di promozione di alto livello basata sull'utilizzo del potere dei social media. Non creiamo solo siti web; creiamo ecosistemi digitali che contribuiscono attivamente alla traiettoria di crescita della tua attività.</p>
                             <p class="fs-lg text-secondary" data-aos="fade-up">In un settore afflitto da costi gonfiati, Not a Design Company rappresenta un paradigma rinfrescante. Crediamo fermamente che l'eccellenza non debba costare un prezzo esorbitante. La nostra struttura di prezzi è progettata per allinearsi alle esigenze uniche della tua attività, garantendo che i nostri servizi di alta qualità rimangano accessibili a un'ampia gamma di imprese, dalle startup alle imprese consolidate.</p>
                             <p class="fs-lg text-secondary" data-aos="fade-up">Not a Design Company rappresenta il nexus di tradizione e innovazione, autenticità e accessibilità. Siamo più di una semplice agenzia di sviluppo web; siamo i tuoi partner nel progresso, dedicati a plasmare esperienze digitali che trascendono l'ordinario. Con il nostro impegno incrollabile per la qualità, l'approccio personalizzato e la promozione strategica, introduciamo la tua attività in un'era digitale definita dall'eccellenza e dalla crescita.</p>
                             <p class="fs-lg text-secondary" data-aos="fade-up">Per un'offerta personalizzata, contattaci.</p>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="skrollr skrollr-desktop">
+<html lang="it" class="skrollr skrollr-desktop">
 
 <head>
   <title>Not a Design Company</title>
-  <meta name="description" content="Not a Design Company: the new tech company in Brescia that aims to create premium websites, offering innovative and ambitious solutions to satisfy the most sophisticated digital needs.">
-  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting">
+  <meta name="description" content="Not a Design Company: la nuova tech company bresciana che mira a creare siti web premium, offrendo soluzioni innovative e ambiziose per soddisfare le esigenze digitali più sofisticate.">
+  <meta name="keywords" content="tech company, Brescia, web design, premium websites, innovative solutions, ambitious goals, digital solutions, website development, professional design, cutting-edge technology, responsive web design, user experience, SEO optimization, digital marketing, online presence, customized websites, creative solutions, web development services, mobile-friendly design, modern website design, interactive user interface, SEO-friendly websites, bespoke web design, e-commerce solutions, branding, graphic design, content management systems, WordPress development, website maintenance, website security, domain registration, web hosting, siti web premium, soluzioni innovative, obiettivi ambiziosi, soluzioni digitali, sviluppo siti web, design professionale, tecnologia all'avanguardia, web design reattivo, esperienza utente, ottimizzazione SEO, marketing digitale, presenza online, siti web personalizzati, soluzioni creative, servizi di sviluppo web, progettazione di siti Web moderni, interfaccia utente interattiva, siti Web SEO-friendly, progettazione Web su misura, soluzioni di e-commerce, negozi online, progettazione grafica, sistemi di gestione dei contenuti, sviluppo di WordPress, manutenzione di siti Web, sicurezza di siti Web, registrazione di domini">
   <meta name="author" content="Not a Design Company">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +14,30 @@
   <link rel="icon" href="./assets/favicon/favicon_white.ico" type="image/x-icon" media="(prefers-color-scheme: dark)" />
   <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
   <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+
+  <script>
+    // check if the language cookie is set
+    const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+    const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+  
+    // set the language cookie
+    document.cookie = `lang=${lang}`;
+  
+    // set the redirect URL based on the language cookie
+    let redirectUrl = "index.html"; // default to English
+    if (lang === "it") {
+      redirectUrl = "index_it.html";
+    }
+  
+    // redirect to the appropriate page if not already on that page
+    if (window.location.pathname !== `/${redirectUrl}`) {
+      window.location.href = redirectUrl;
+    }
+  </script>
+
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="it" href="index_it.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
 </head>
 
 <body class="headroom headroom--not-bottom headroom--top" data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
@@ -123,8 +147,31 @@
               <li><a class="dropdown-item" href="https://www.linkedin.com/company/98444881/">LinkedIn</a></li>
             </ul>
           </li>
-        </ul>
-      </div>
+        </ul>        
+      </div>      
+
+      <button id="language-button" style="background: none; border: none; color: #FFFFFF; cursor: pointer;">IT | EN</button>
+
+      <script>
+        const languageButton = document.getElementById('language-button');
+      
+        languageButton.addEventListener('click', () => {
+          // check if the language cookie is already set
+          const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+          const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+          if (lang === "en") {
+            // set the language cookie to "it"
+            document.cookie = "lang=it";
+            // reload the page in Italian
+            window.location.href = "index_it.html";
+          } else {
+            // set the language cookie to "en"
+            document.cookie = "lang=en";
+            // reload the page in English
+            window.location.href = "index.html";
+          }
+        });
+      </script>
     </div>
   </nav>
 
@@ -271,7 +318,7 @@
         <div class="container overflow-hidden" id="content">
             <div class="row mb-8">
                 <div class="col-lg-10 text-center" style="width: 100vw">
-                    <h2 class="display-2">Not a Design Company® realizzerà il <span class="text-primary">sito web dei tuoi sogni</span></h2>
+                    <h2 class="display-2">Not a Design Company® realizzerà il <span class="text-primary">sito web che hai sempre desiderato</span></h2>
                 </div>
             </div>
             <div class="row" style="margin-top: 150px;" data-aos="fade-up">
@@ -300,7 +347,7 @@
                             </div>
                             <div>
                                 <h4 class="fs-5">Manutenzione:</h4>
-                                <p class="text-secondary fs-lg">Con un piccolo controllo mensile che discuteremo, Not a Design Company è in grado di mantenere il sito web per te.</p>
+                                <p class="text-secondary fs-lg">Con un piccolo contributo mensile che discuteremo, Not a Design Company è in grado di mantenere il sito web per te.</p>
                             </div>
                         </div>
                     </div>
@@ -316,7 +363,7 @@
       <div class="container">
         <div class="row justify-content-center mb-10">
           <div class="col-lg-10 col-xl-8 text-center" style="width: 100vw">
-            <h2 class="display-2 fw-light"><span class="fw-bold"><span class="text-primary">40+</span> websites in our portfolio</span></h2>
+            <h2 class="display-2 fw-light"><span class="fw-bold"><span class="text-primary">40+</span> siti nel nostro portfolio</span></h2>
             <button class="btn btn-filter rounded-pill current" data-filter="*" data-target="#grid1" style="margin: 10px">all</button>
             <button class="btn btn-filter rounded-pill" data-filter=".landing" data-target="#grid1" style="margin: 10px">landings</button>
             <button class="btn btn-filter rounded-pill" data-filter=".page" data-target="#grid1" style="margin: 10px">pages</button>
@@ -704,7 +751,7 @@
       <div class="container">
         <div class="row mb-8">
           <div class="col-lg-10">
-            <h2>Il nostro obbiettivo è creare siti web di <span class="text-primary">alta qualità </span></h2>
+            <h2>Il nostro obbiettivo è creare siti web di <span class="text-primary">altissima qualità </span></h2>
           </div>
         </div>
         <div class="row g-1 g-lg-3">
