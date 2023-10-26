@@ -4,237 +4,238 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://www.notadesigncompany.com/</loc>
-  <lastmod>2023-08-09T16:31:08+00:00</lastmod>
+  <lastmod>2023-10-21T17:01:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.notadesigncompany.com/about_us.html</loc>
-  <lastmod>2023-08-09T16:31:08+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://www.notadesigncompany.com/contact_us.html</loc>
-  <lastmod>2023-08-09T16:31:08+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
   <loc>https://www.notadesigncompany.com/websites/startup/startup.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:11:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/saas/saas.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:09:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/coworking/coworking.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/job-board/job-board.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:07:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/agency/agency.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-09-04T08:11:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/blog/blog.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:05:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/product/product.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:08:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/app/app.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:04:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop/shop.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:09:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/event/event.html</loc>
-  <lastmod>2023-08-09T14:42:21+00:00</lastmod>
+  <lastmod>2023-10-02T13:07:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/course/course.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:06:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/service/service.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:09:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/software/software.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:11:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/documentation/documentation.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:06:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/about/about.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:03:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/pricing/pricing.html</loc>
-  <lastmod>2023-08-09T14:42:21+00:00</lastmod>
+  <lastmod>2023-10-02T13:08:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/faq/faq.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:07:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/terms/terms.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:11:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/services/services.html</loc>
-  <lastmod>2023-08-09T14:42:21+00:00</lastmod>
+  <lastmod>2023-10-02T13:09:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/job-listing/job-listing.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:07:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/job-post/job-post.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/portfolio-grid/portfolio-grid.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:08:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/portfolio-list/portfolio-list.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:08:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/case-study/case-study.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:05:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/blog-listing/blog-listing.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:05:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/blog-post/blog-post.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:05:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/contact/contact.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:06:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/contact-location/contact-location.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:06:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/404/404.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-23T19:25:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/account/account.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:04:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/account-settings/account-settings.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:04:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/account-orders/account-orders.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:04:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/account-billing/account-billing.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:04:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/sign-in/sign-in.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/register/register.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:09:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/forgot-password/forgot-password.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:07:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop-product/shop-product.html</loc>
-  <lastmod>2023-08-09T14:41:34+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop-listing/shop-listing.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop-listing-sidebar/shop-listing-sidebar.html</loc>
-  <lastmod>2023-08-09T14:42:21+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop-cart/shop-cart.html</loc>
-  <lastmod>2023-08-09T14:41:39+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/websites/shop-checkout/shop-checkout.html</loc>
-  <lastmod>2023-08-09T14:42:21+00:00</lastmod>
+  <lastmod>2023-10-02T13:10:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.notadesigncompany.com/about_us.html</loc>
+  <lastmod>2023-09-01T20:49:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.notadesigncompany.com/contact_us.html</loc>
+  <lastmod>2023-09-03T17:35:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.notadesigncompany.com/index.html</loc>
+  <lastmod>2023-10-21T17:01:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.notadesigncompany.com/privacy.html</loc>
-  <lastmod>2023-08-09T16:31:08+00:00</lastmod>
+  <lastmod>2023-10-02T13:03:47+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.notadesigncompany.com/index.html</loc>
-  <lastmod>2023-08-09T16:31:08+00:00</lastmod>
-  <priority>0.00</priority>
 </url>
 
 
