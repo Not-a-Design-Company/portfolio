@@ -46,12 +46,15 @@
   </div>
   
   <!-- navbar -->
-  <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-sticky navbar-light" id="navbarpc">
     <div class="container">
       <a href="/index_it.html" class="navbar-brand"><img src="/assets/images/logo-dark.webp" alt="Not a Design Company logo dark"></a>
 
       <!-- secondary -->
       <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+        <li class="nav-item">
+          <button id="language-button" class="nav-link">IT | EN</button>
+        </li>
         <li class="nav-item d-lg-none">
           <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="bi bi-list"></span>
@@ -152,28 +155,6 @@
           </li>
         </ul>
       </div>
-      <button id="language-button" style="background: none; border: none; color: #000000; cursor: pointer;">IT | EN</button>
-
-      <script>
-        const languageButton = document.getElementById('language-button');
-      
-        languageButton.addEventListener('click', () => {
-          // check if the language cookie is already set
-          const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
-          const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
-          if (lang === "en") {
-            // set the language cookie to "it"
-            document.cookie = "lang=it";
-            // reload the page in Italian
-            window.location.href = "contact_us_it.html";
-          } else {
-            // set the language cookie to "en"
-            document.cookie = "lang=en";
-            // reload the page in English
-            window.location.href = "contact_us.html";
-          }
-        });
-      </script>
     </div>
   </nav>
 
@@ -181,7 +162,10 @@
     <div class="container">
         <a href="/index_it.html" class="navbar-brand"><img src="/assets/images/logo-dark.webp" alt="Not a Design Company logo dark"></a>
         <ul class="navbar-nav navbar-nav-secondary order-lg-3">
-            <li class="nav-item"><a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button" aria-controls="offcanvasNav"><span class="bi bi-list"></span></a></li>
+          <li class="nav-item">
+            <button id="language-button2" class="nav-link">IT | EN</button>
+          </li>  
+          <li class="nav-item"><a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button" aria-controls="offcanvasNav"><span class="bi bi-list"></span></a></li>
         </ul>
     </div>
   </nav>
@@ -293,6 +277,46 @@
           </ul>
       </div>
   </div>
+
+  <script>
+    const languageButton = document.getElementById('language-button');
+  
+    languageButton.addEventListener('click', () => {
+      // check if the language cookie is already set
+      const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+      const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+      if (lang === "en") {
+        // set the language cookie to "it"
+        document.cookie = "lang=it";
+        // reload the page in Italian
+        window.location.href = "contact_us_it.html";
+      } else {
+        // set the language cookie to "en"
+        document.cookie = "lang=en";
+        // reload the page in English
+        window.location.href = "contact_us.html";
+      }
+    });
+
+    const languageButton2 = document.getElementById('language-button2');
+  
+    languageButton2.addEventListener('click', () => {
+      // check if the language cookie is already set
+      const langCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('lang='));
+      const lang = langCookie ? langCookie.split('=')[1] : navigator.language.substring(0, 2);
+      if (lang === "en") {
+        // set the language cookie to "it"
+        document.cookie = "lang=it";
+        // reload the page in Italian
+        window.location.href = "contact_us_it.html";
+      } else {
+        // set the language cookie to "en"
+        document.cookie = "lang=en";
+        // reload the page in English
+        window.location.href = "contact_us.html";
+      }
+    });
+  </script>
 
     <section class="py-15 py-xl-20">
         <div class="container mt-5 mt-lg-10">

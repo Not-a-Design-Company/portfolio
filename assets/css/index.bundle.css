@@ -79,14 +79,6 @@
 #language-button2 {
     background: none; 
     border: none; 
-    color: #FFFFFF; 
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-#language-button:hover,
-#language-button2:hover {
-    color: rgba(255, 255, 255, 0.75);
 }
 
 
