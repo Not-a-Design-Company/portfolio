@@ -28,12 +28,12 @@
       <div class="row justify-content-center my-auto">
         <div class="col-lg-8 col-xl-6 text-center">
           <h1 class="display-1 lh-sm">Coming Soon</h1>
-          <div class="countdown countdown-decorated" data-countdown=" Aug 8, 2023 18:00:00"></div>
+          <div class="countdown countdown-decorated" data-countdown=" Dec 19 , 2033 11:42:59"></div>
         </div>  
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-6 col-xl-4 text-center">
-          <p class="text-secondary"><a href="/contact_us.html" class="underline text-white fw-bold">Subscribe</a> and we'll let you know once we go live.</p>
+          <p class="text-secondary"><a href="#myModal" class="underline text-white fw-bold" data-bs-toggle="modal">Subscribe</a> and we'll let you know once we go live.</p>
         </div>
       </div>
     </div>
@@ -45,3 +45,32 @@
   <script src="./assets/js/index.bundle.js"></script></body>
 
 </html>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background-color: black; color: white;">
+
+      <!-- Modal Header -->
+      <div class="modal-header" style="padding-bottom: 0px;">
+        <h4 class="modal-title" style="color: white; margin-top: 0px;">Subscribe</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body" style="padding-top: 20px;">
+        <form>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+          </div>
+          <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
