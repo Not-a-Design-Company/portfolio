@@ -1,1 +1,9 @@
 ErrorDocument 404 /websites/404/404.html
+
+RewriteEngine On
+RewriteRule ^index\.html$ /en/ [R=301,L]
+RewriteRule ^index_it\.html$ /it/ [R=301,L]
+RewriteRule ^about_us\.html$ /en/about_us/ [R=301,L]
+RewriteRule ^about_us_it\.html$ /it/about_us/ [R=301,L]
+RewriteRule ^contact_us\.html$ /en/contact_us/ [R=301,L]
+RewriteRule ^contact_us_it\.html$ /it/contact_us/ [R=301,L]
